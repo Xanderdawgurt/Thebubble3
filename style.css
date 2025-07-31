@@ -18,6 +18,8 @@
     text-align: center;
     padding: 20px;
     border-bottom: 1px white solid;
+    min-width: 0;
+    min-height: 0;
 
     flex: auto;
  }
@@ -26,4 +28,10 @@
 
  .para {
     border: 1px white solid;
+    background-color: rgb(180, 181, 184);
+    color: black;
+    font-family: "Helvetica Neue", Helvetica, sans-serif;
+    border-radius: 10px;
+    font-weight: 450;
+   
  }
