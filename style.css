@@ -4,20 +4,26 @@
     box-sizing: border-box; 
  }
  body {
-    background-color: rgb(22, 22, 22)
+    background-color: rgb(240, 242, 242)
  }
 
- .flexcontainer {
+ .flexcontainer.one {
     display: flex;
     flex-direction: column;
  }
 
+ .flexcontainer.two {
+    display: flex; 
+    justify-content: center;
+    margin: 20px auto;
+    width: 500px;
+ }
+
  .header, 
  .para {
-    color: white;
+    color: black;
     text-align: center;
     padding: 20px;
-    border-bottom: 1px white solid;
     min-width: 0;
     min-height: 0;
 
@@ -27,11 +33,20 @@
  
 
  .para {
-    border: 1px white solid;
-    background-color: rgb(180, 181, 184);
+    border: 3px rgb(128, 225, 242) solid;
+    background-color: rgb(232, 234, 235);
     color: black;
     font-family: "Helvetica Neue", Helvetica, sans-serif;
     border-radius: 10px;
     font-weight: 450;
    
+ }
+
+ .header {
+    padding-bottom: 5px;
+    border-bottom: 4px rgb(128, 225, 242) solid; 
+ }
+
+ .header.one {
+    font-size: 50px;
  }
